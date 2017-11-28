@@ -7,12 +7,12 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js"
-  
   },
   "author": "VanhLe@kma",
   "license": "ISC",
   "dependencies": {
     "angular": "^1.6.6",
+    "angular-route": "^1.6.7",
     "bcrypt": "^1.0.3",
     "body-parser": "^1.18.2",
     "ejs": "^2.5.7",
