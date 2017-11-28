@@ -3,9 +3,11 @@
   "version": "1.0.0",
   "description": "Công cụ chuyển đổi tiếng việt của người bình thường cho người không bình thường",
   "main": "index.js",
+  "node": "6.11.3",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js"
+  
   },
   "author": "VanhLe@kma",
   "license": "ISC",
