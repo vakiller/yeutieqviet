@@ -1,0 +1,21 @@
+{
+  "name": "tieqviet",
+  "version": "1.0.0",
+  "description": "Công cụ chuyển đổi tiếng việt của người bình thường cho người không bình thường",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "VanhLe@kma",
+  "license": "ISC",
+  "dependencies": {
+    "angular": "^1.6.6",
+    "ejs": "^2.5.7",
+    "typescript": "^2.6.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vakiller/yeutieqviet"
+  }
+}

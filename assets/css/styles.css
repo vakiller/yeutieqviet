@@ -1,0 +1,24 @@
+#text.jumbotron{
+  text-align:center;
+  padding:40px;
+  background:url(../../assets/img/background.jpg) no-repeat;
+  background-size:cover;
+}
+
+html{
+  background:url(../../assets/img/background.jpg);
+  background-size:cover;
+}
+
+/* body{
+  background:url(../../assets/img/1295721-website-background-color.jpg);
+  background-size:cover;
+} */
+footer{
+  text-decoration-color: cornsilk;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+

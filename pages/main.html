@@ -1,0 +1,21 @@
+<style>
+     #main{
+  background:url(../../assets/img/1295721-website-background-color.jpg);
+  background-size:cover;
+} 
+</style>
+<div id="main" ng-controller="mainCtrl">
+    <div class="row register-form">
+        <div class="col-md-8 col-md-offset-2">
+            <form class="form-horizontal custom-form">
+                <h1>N'ập Doạn Text Kần Cuyển Dổi </h1>
+                <h2>(Nhập đoạn text cần chuyển đổi)</h2>
+                <div class="form-group">    
+                    <textarea class="form-control" rows="5" id="input" ng-model="textinput" >Cô Gái rú to :"Chưa bao giờ nắm chặc..."</textarea>
+                  </div>
+                  <div class="form-group"><button type="button" class="btn btn-primary" ng-click="trans()">Dịc</button></div>
+                  <h2>Bản dịc:</h2>
+                  <h3>{{textafter}}</h3>
+            </form>
+        </div>
+    </div>
