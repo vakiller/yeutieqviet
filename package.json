@@ -8,6 +8,14 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js"
   },
+  "keywords": [
+    "Tieng Viet Moi",
+    "Chuyen Doi Tieng Viet",
+    "Bùi Hiền",
+    "Tiếq Việt",
+    "Tiếng Việt Chuẩn",
+    "Công cụ đổi tiếng việt"
+  ],
   "author": "VanhLe@kma",
   "license": "ISC",
   "dependencies": {
