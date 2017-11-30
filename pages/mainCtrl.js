@@ -5,8 +5,8 @@ app.controller('mainCtrl', function ($scope) {
     var match = [
         ['k(h|H)', 'x'],
         ['K(h|H)', 'X'],
-        ['c(?!(h|H))|q', 'k'],
-        ['C(?!(h|H))|Q', 'K'],
+        ['c|q', 'k'],
+        ['C|Q', 'K'],
         ['t(r|R)|c(h|H)', 'c'],
         ['T(r|R)|C(h|H)', 'C'],
         ['d|g(i|I)|r', 'z'],
